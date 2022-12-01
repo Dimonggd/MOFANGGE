@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>MoFangGe</title>
+
+  </head>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <a href="index.html" class="header__logo">
+                    <img src="assets/img/logo.svg" alt="Лого">
+                </a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="index.html" class="header__link">Главная</a>
+                        </li>
+                        <li>
+                            <a href="cubs.html" class="header__link">Кубики Рубика</a>
+                        </li>
+                        <li>
+                            <a href="reviews.html" class="header__link">Отзывы</a>
+                        </li>
+                        <li>
+                            <a href="contacts.html" class="header__link">Контакты</a>
+                        </li>
+                        <li>
+                            <a href="aboutus.html" class="header__link">О нас</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="product__curt">
+                    <a href="curt.html" class="productcurt__img">
+                        <img src="assets/img/curt.svg" alt="Корзина">
+                    </a>
+                    <div class="productcurt__text">Корзина</div>
+                </div>
+            </div>
+        </div>
+    </header>
+   <main class="main">
+        <div class="container">
+           <div class="reviews__zag">
+               <h1 class="reviews">
+                    Корзина
+               </h1>
+           </div>
+           <div class="blocks">
+                <div class="block__one">
+                    <div class="curt__img">
+                        <img src="assets/img/curt_img.svg" alt="">
+                    </div>
+                    <div class="curt__text">
+                        <div class="curt__name">
+                            MOFANGGE 3X3 VALK 3 ELITE MAGNETIC
+                        </div>
+                        <div class="curt__info">
+                            <div class="curt__price">3 190 ₽</div>
+                            <button class="quantity">- 1 +</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="block__two">
+                    <div class="kolvo">
+                        <div class="kolvo__text">Товары, 1 шт.</div>
+                        <div class="kolvo__price">3 190₽</div>
+                    </div>
+                    <div class="discount">
+                        <div class="discount__text">Скидка</div>
+                        <div class="discount__price">0 ₽</div>
+                    </div>
+                    <div class="dostavka">
+                        <div class="dostavk__text">Доставка</div>
+                        <div class="dostavk__price">100 ₽</div>
+                    </div>
+                    <div class="weight">
+                        <div class="weight__text">Вес</div>
+                        <div class="weight__price">239 гр.</div>
+                    </div>
+                    <div class="curt__line">
+                        <hr class="curt__hr">
+                    </div>
+                    <div class="result">
+                        <div class="result__text">Итог</div>
+                        <div class="result__price">3 290₽</div>
+                    </div>
+                    <div class="curt__button">
+                        <button class="curt__btn">Перейти к оплате</button>
+                    </div>
+                </div>
+            </div>
+            <h2>Способ оплаты</h2>
+            <div class="form_radio">
+                <input id="radio-1" type="radio" name="radio" value="1" checked>
+                <label for="radio-1">При получении</label>
+            </div>
+            
+            <div class="form_radio">
+                <input id="radio-2" type="radio" name="radio" value="2">
+                <label for="radio-2">Оплатить картой онлайн</label>
+            </div>
+            <h2>Данные покупателя</h2>
+            <form action="#">
+                <input type="text" class="inpute" placeholder="Имя и Фамилия"><br>
+                <input type="mail"class="inpute" placeholder="Email"><br>
+                <input type="tel" class="inpute" placeholder="Телефон"><br>
+                <input type="text" class="inpute" placeholder="Почтовый индекс"><br>
+            </form>
+        </div>    
+   </main>
+   <footer>
+    <div class="container">
+        <div class="footer__background">
+            <div class="footer__texts">
+                <div class="form__footer">
+                    <div class="form__name">
+                        <p class="formname__text">
+                            Следите за новинками и акциями:
+                        </p>
+                    </div>
+                    <form action="#">
+                        <input type="text" placeholder="Email"><br>
+                        <input type="button" value="Подписаться" class="form__btn">
+                    </form>
+                </div>
+                <div class="about__shop">
+                    <div class="about__text">
+                        <p class="abouttext">О магазине</p>
+                    </div>
+                    <ul class="footer__menu">
+                        <li><a href="http://" class="footermenu__link">О нас</a></li>
+                        <li><a href="http://" class="footermenu__link">Кругозор</a></li>
+                        <li><a href="http://" class="footermenu__link">Контакты</a></li>
+                        <li><a href="http://" class="footermenu__link">Документы</a></li>
+                    </ul>
+                </div>
+                <div class="contacts">
+                    <div class="contacts__text">
+                        <p class="contactstext">Контакты</p>
+                    </div>
+                    <ul class="footer__contacts">
+                        <li><a href="mailto:info@cruise.ru" class="footermenu__link">info@cruise.ru</a></li>
+                        <li><a href="tel:+7 (499) 460-74-89" class="footermenu__link">+7 (499) 460-74-89</a></li>
+                        <li><a href="tel:8 (800) 100-10-10" class="footermenu__link">8 (800) 100-10-10</a></li>
+                    </ul>
+                    <div class="telephone">
+                        <p class="telephone__text">
+                            звонок по РФ <br>бесплатно
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="foot__hr">
+                <hr class="footer__line">
+            </div>
+            <div class="footer__bottom">
+                <div class="copyrigth">
+                    2022 mofangge
+                </div>
+                <div class="confidentiality">
+                    Политика конфидециальности
+                </div>
+                <div class="networks">
+                    <div class="vk">
+                        <a href="http://vk.com">
+                            <img src="assets/img/vk.svg" alt="">
+                        </a>    
+                    </div>
+                    <div class="ok">
+                        <a href="http://ok.ru">
+                            <img src="assets/img/ok.svg" alt="">
+                        </a>    
+                    </div>
+                    <div class="tg">
+                        <a href="http://web.tginfo.me">
+                            <img src="assets/img/tg.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
